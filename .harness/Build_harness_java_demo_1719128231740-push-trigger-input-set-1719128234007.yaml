@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_java_demo_1719128231740-push-trigger-input-set
+  identifier: Build_harness_java_demo_1719128231740pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: JavaTest
+  pipeline:
+    identifier: Build_harness_java_demo_1719128231740
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
