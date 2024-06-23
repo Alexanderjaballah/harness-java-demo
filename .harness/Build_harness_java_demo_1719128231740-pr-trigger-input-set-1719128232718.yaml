@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_java_demo_1719128231740-pr-trigger-input-set
+  identifier: Build_harness_java_demo_1719128231740prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: JavaTest
+  pipeline:
+    identifier: Build_harness_java_demo_1719128231740
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
